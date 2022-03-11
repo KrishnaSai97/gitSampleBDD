@@ -10,9 +10,9 @@ Scenario: Search Item
 Given Uer is on My Account page
 When User search item
 		| phone |
-Then User navigate to search result page
+Then Shoud display search result page
 
 Scenario: Add to Cart
 Given User is on search result page
 When User Add Item to cart
-Then Item must be aavailable in cart
+Then Item must be available in cart
